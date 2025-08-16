@@ -1,0 +1,16 @@
+# اجعل GitHub يتعرف على ملفات Dart كمصدر أساسي
+*.dart linguist-detectable=true
+*.dart linguist-language=Dart
+
+# تجاهل ملفات C++ وObjective-C
+*.cpp linguist-detectable=false
+*.c linguist-detectable=false
+*.h linguist-detectable=false
+*.mm linguist-detectable=false
+*.m linguist-detectable=false
+
+# تجاهل ملفات Gradle وBuild لو عايز (اختياري)
+build/** linguist-vendored=true
+.gradle/** linguist-vendored=true
+.idea/** linguist-vendored=true
+*.iml linguist-vendored=true
