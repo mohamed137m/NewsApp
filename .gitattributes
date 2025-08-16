@@ -8,6 +8,7 @@
 *.h linguist-detectable=false
 *.mm linguist-detectable=false
 *.m linguist-detectable=false
+*.CMake linguist-detectable=false
 
 # تجاهل ملفات Build وGradle وXcode وIDE
 build/** linguist-vendored=true
